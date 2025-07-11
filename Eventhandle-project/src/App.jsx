@@ -39,7 +39,7 @@ export default function App() {
       >
         Previous
       </button>
-      {Pages}
+     <span> {Pages}</span>
       <button
         disabled={Pages == 10}
         onClick={() => setPages(Pages + 1)}
